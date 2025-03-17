@@ -74,5 +74,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /Assets/DownloadAssets/
 /Assets/MyAssets/
-/Assets/Oculus Integration
+/Assets/Oculus
 /Assets/Mirror
