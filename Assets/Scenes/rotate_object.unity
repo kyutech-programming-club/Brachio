@@ -423,7 +423,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1746216616}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1ba05233d3a97141a24ee43587d1914, type: 3}
+  m_Script: {fileID: 11500000, guid: 19cb7dc8adb53d44db6f910953bbf81c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   detectSwipeOnlyAfterRelease: 0
