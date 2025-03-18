@@ -12,13 +12,19 @@ public class one : MonoBehaviour
     {
         GetComponent<Renderer>().material.color = Color.white;
     }
-    // Start is called before the first frame update
+    void Update()
+    {
+        if (push == false && button.push == true)
+        {
+            GetComponent<Renderer>().material.color = Color.red;
+        }
+    }
     public void OnClickButton()
     {
         if (push == false && button.push == true)
         {
             push = true;
-            GetComponent<Renderer>().material.color = Color.red;
+            GetComponent<Renderer>().material.color = Color.white;
         }
     }
 }

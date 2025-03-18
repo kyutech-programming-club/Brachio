@@ -9,7 +9,7 @@ public class zero : MonoBehaviour
     
     void Start()
     {
-        GetComponent<Renderer>().material.color = Color.white;
+        GetComponent<Renderer>().material.color = Color.red;
     }
     // Start is called before the first frame update
     public void OnClickButton()
@@ -17,7 +17,7 @@ public class zero : MonoBehaviour
         if (push == false)
         {
             push = true;
-            GetComponent<Renderer>().material.color = Color.red;
+            GetComponent<Renderer>().material.color = Color.white;
         }
     }
 }
