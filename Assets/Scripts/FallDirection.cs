@@ -22,6 +22,7 @@ public class FallDirection : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.Log("aa");
             GetComponent<FallDirection>().Fall(new Vector3(1, -1, 0), 10f);
         }
     }
